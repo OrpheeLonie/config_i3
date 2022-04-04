@@ -183,7 +183,7 @@ bar {
 
 bindsym $mod+p move workspace to output right
 
-set $i3lockwall sh ~/Documents/EPITA/.config/i3lockWithRandomWallpaper.sh
+set $i3lockwall sh $HOME/.config/i3/script/i3lockWithRandomWallpaper.sh
 bindsym $mod+Shift+d exec $i3lockwall
 
 # shutdown / restart / suspend...
