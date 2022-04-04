@@ -2,6 +2,7 @@
 
 !.vimrc
 !.shellrc.sh
+!.emacs.d.el
 
 !.config/
 .config/*
