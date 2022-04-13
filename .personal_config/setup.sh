@@ -3,15 +3,13 @@ set -v
 # exit on error
 set -e
 
-# install rofi if it is not already installed
-if [ -z "$(rofi --verion)" ] then
-    apt install rofi
-fi
-
-# install zsh if it is not already installed
-if [ -z "$(zsh --verion)" ] then
-    apt install zsh
-fi
+# install some application
+for app in rofi zsh
+do
+    if [ -z "$($app --verion)" ] then
+        apt install $app
+    fi
+done
 
 # import config from shellrc.sh
 for shell in bash zsh
