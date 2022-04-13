@@ -3,6 +3,7 @@
 !.vimrc
 !.shellrc.sh
 !.emacs.d.el
+!.personal_config/
 
 !.config/
 .config/*
