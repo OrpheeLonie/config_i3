@@ -15,3 +15,4 @@
 !.config/rofi/launchers/
 .config/rofi/launchers/*
 !.config/rofi/launchers/colorful/
+.config/rofi/launchers/colorful/colors.rasi
