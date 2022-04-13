@@ -7,3 +7,9 @@
 !.config/
 .config/*
 !.config/i3/
+
+!.config/rofi/
+.config/rofi/*
+!.config/rofi/launchers/
+.config/rofi/launchers/*
+!.config/rofi/launchers/colorful/
