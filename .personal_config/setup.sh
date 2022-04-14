@@ -31,3 +31,5 @@ do
 $sourceShellrc" >> "$shellrc"
     fi
 done
+
+# TODO import emacs config
