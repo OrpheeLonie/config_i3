@@ -12,7 +12,7 @@ do
     if [ -z "$($app --help)" ]
     then
         echo "Install $app"
-        apt install $app
+        sudo apt install $app
     fi
 done
 
