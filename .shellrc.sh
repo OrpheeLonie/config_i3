@@ -10,3 +10,6 @@ alias rotateScreenLeft='xrandr --output "${screen}" --rotate left --auto'
 alias rotateScreenNormal='xrandr --output "${screen}" --rotate normal --auto'
 
 export EDITOR=vim
+
+alias keyboardGb='setxkbmap -layout gb'
+alias keyboardFR='setxkbmap -layout fr'
