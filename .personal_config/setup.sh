@@ -34,3 +34,4 @@ done
 
 # TODO import emacs config
 # TODO install imagemagick and feh
+# TODO import git config
