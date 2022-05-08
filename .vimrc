@@ -16,3 +16,8 @@ set winwidth=84
 
 map <C-K> :ClangFormat <cr>
 imap <C-K> <c-o>:ClangFormat <cr>
+
+au VimEnter * RainbowParenthesesToggle
+au Syntax * RainbowParenthesesLoadRound
+au Syntax * RainbowParenthesesLoadSquare
+au Syntax * RainbowParenthesesLoadBraces
