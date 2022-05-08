@@ -9,8 +9,9 @@ i3lockWithRandomWallpaper() {
         exit 1
     fi
 
+    size=$(xrandr 2> /dev/null | sed -e '/^[Sd]/d' -e 's/.*\([0-9]\{4\}x[0-9]*\).*\*.*/\1/g')
     echo "converting image"
-    convert "$imgIn" -resize 1366x768^ "$imgOut"
+    convert "$imgIn" -resize "$size"^ "$imgOut"
     echo "image has been converted"
     i3lock -i "$imgOut"
 }
