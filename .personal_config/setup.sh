@@ -33,3 +33,4 @@ $sourceShellrc" >> "$shellrc"
 done
 
 # TODO import emacs config
+# TODO install imagemagick and feh
