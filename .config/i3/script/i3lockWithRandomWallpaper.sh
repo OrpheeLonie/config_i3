@@ -1,7 +1,7 @@
 #!/bin/sh
 
 i3lockWithRandomWallpaper() {
-    imgIn="$(find ~/Pictures/Wallpaper/ -name "*.jpg" | shuf -n1)"
+    imgIn="$(find ~/Pictures/Wallpaper/ | shuf -n1)"
     imgOut='/tmp/i3lockWallpaper.png'
 
     if [ ! -f "$imgIn" ]
