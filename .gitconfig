@@ -1,0 +1,12 @@
+[color]
+	ui = auto
+	branch = auto
+	diff = auto
+	status = auto
+[commit]
+	verbose = true
+[pull]
+	rebase = false
+[core]
+	editor = vim
+	excludesfile = ~/.gitignore_global
