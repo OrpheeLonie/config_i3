@@ -1,4 +1,4 @@
 *.swp
 venv/
-.vscode/
 .ipynb_checkpoints/
+.vscode/
