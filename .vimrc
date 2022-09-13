@@ -16,3 +16,5 @@ set winwidth=84
 
 map <C-K> :ClangFormat <cr>
 imap <C-K> <c-o>:ClangFormat <cr>
+
+runtime! ftplugin/man.vim
