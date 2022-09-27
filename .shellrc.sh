@@ -1,6 +1,5 @@
 set -o vi
 
-alias bat='batcat'
 alias MolekSyntez='~/Documents/Games/MOLEK\ SYNTEZ/start.sh'
 
 screen="HDMI-1"
