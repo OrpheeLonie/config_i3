@@ -12,3 +12,5 @@ export EDITOR=vim
 
 alias keyboardGb='setxkbmap -layout gb'
 alias keyboardFR='setxkbmap -layout fr'
+
+alias egrep='egrep --color=auto --exclude-dir={.bzr,CVS,.git,.hg,.svn,.idea,.tox,venv}'
