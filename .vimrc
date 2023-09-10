@@ -4,7 +4,7 @@ if !has('nvim')
 endif
 
 set mouse=
-set textwidth=80
+"set textwidth=80
 set nu rnu hls is colorcolumn=81
 set list listchars=tab:>-,eol:¶
 set tabstop=4 shiftwidth=4 expandtab
@@ -16,10 +16,5 @@ set winwidth=84
 
 map <C-K> :ClangFormat <cr>
 imap <C-K> <c-o>:ClangFormat <cr>
-
-au VimEnter * RainbowParenthesesToggle
-au Syntax * RainbowParenthesesLoadRound
-au Syntax * RainbowParenthesesLoadSquare
-au Syntax * RainbowParenthesesLoadBraces
 
 runtime! ftplugin/man.vim
