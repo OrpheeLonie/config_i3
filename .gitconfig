@@ -8,5 +8,5 @@
 [pull]
 	rebase = false
 [core]
-	editor = vim
+	editor = nvim
 	excludesfile = ~/.gitignore_global
