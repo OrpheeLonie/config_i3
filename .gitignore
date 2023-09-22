@@ -21,3 +21,5 @@
 
 !.gitconfig
 !.gitignore_global
+
+lazy-lock.json
