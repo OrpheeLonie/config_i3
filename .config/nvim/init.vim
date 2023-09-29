@@ -4,9 +4,7 @@ set list listchars=tab:>-,trail:-,nbsp:+
 set tabstop=4 shiftwidth=4 expandtab
 set winwidth=84
 
-source ~/.config/nvim/lsp_keymap.lua
-
-set path+=**
+lua require("lsp_keymap")
 
 " lazy
-source ~/.config/nvim/lazy.lua
+lua require("lazy_nvim")
