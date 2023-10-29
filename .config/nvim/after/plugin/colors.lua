@@ -1,0 +1,6 @@
+-- vim.cmd.colorscheme("torte")
+-- vim.cmd.colorscheme("evening")
+-- vim.cmd.colorscheme("koehler")
+-- vim.cmd.colorscheme("lunaperche")
+vim.api.nvim_set_hl(0, "Normal", { bg = "none"})
+vim.api.nvim_set_hl(0, "NormalFloat", { bg = "none"})
