@@ -18,9 +18,9 @@
 .config/rofi/launchers/colorful/colors.rasi
 
 !.config/nvim/
+lazy-lock.json
 
 !.gitconfig
 !.gitignore_global
 
-lazy-lock.json
 !.tmux.conf
