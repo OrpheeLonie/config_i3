@@ -23,3 +23,4 @@
 !.gitignore_global
 
 lazy-lock.json
+!.tmux.conf
