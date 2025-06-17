@@ -13,3 +13,11 @@ vim.keymap.set('n', '<leader>ft', function()
     builtin.builtin {include_extensions=false, use_default_opts=false}
 end, {})
 vim.keymap.set('n', '<leader>fr', builtin.resume, {})
+vim.keymap.set('n', '<leader>fs', builtin.grep_string, {})
+vim.keymap.set('n', '<leader>fm', builtin.man_pages, {})
+
+vim.api.nvim_create_autocmd("FileType", { pattern = "TelescopeResults", command = [[setlocal nofoldenable]] })
+
+require('telescope').setup{
+  defaults = { path_display = {"truncate"} }
+}

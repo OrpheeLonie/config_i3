@@ -16,6 +16,9 @@ vim.o.winwidth=84
 vim.opt.undodir = os.getenv("HOME") .. "/.vim/undodir"
 vim.opt.undofile = true
 
-vim.cmd("colorscheme habamax")
+vim.cmd("colorscheme wildcharm")
 
 vim.o.inccommand="split"
+
+vim.o.ignorecase=true
+vim.o.smartcase=true
