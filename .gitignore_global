@@ -4,5 +4,20 @@ venv/
 .vscode/
 __pycache__/
 .ccls-cache
+package-lock.json
+.idea/
+.cache/
 
-Session.vim
+# vim session
+*Session.vim
+
+# tmp file
+tmp*
+
+# lsp java
+.classpath
+.project
+.factorypath
+
+# maven
+META-INF/
