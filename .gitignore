@@ -20,6 +20,8 @@
 !.config/nvim/
 lazy-lock.json
 
+!.config/tmux/
+
 !.gitconfig
 !.gitignore_global
 
