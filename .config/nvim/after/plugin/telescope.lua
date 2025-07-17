@@ -3,7 +3,7 @@ vim.keymap.set('n', '<leader>ff', function()
     builtin.find_files { path_display = {"truncate"} }
 end, {})
 vim.keymap.set('n', '<leader>fd', function()
-    builtin.find_files {no_ignore=true, no_ignore_parent=true}
+    builtin.find_files {no_ignore=true, no_ignore_parent=true, hidden=true}
 end, {})
 vim.keymap.set('n', '<leader>gf', builtin.git_files, {})
 vim.keymap.set('n', '<leader>fg', builtin.live_grep, {})
