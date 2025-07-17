@@ -7,7 +7,7 @@ alias rotateScreenLeft='xrandr --output "${screen}" --rotate left --auto'
 alias rotateScreenNormal='xrandr --output "${screen}" --rotate normal --auto'
 
 export EDITOR=nvim
-# export MANPAGER='nvim +Man!'
+export MANPAGER='nvim +Man!'
 
 alias keyboardGb='setxkbmap -layout gb'
 alias keyboardFR='setxkbmap -layout fr'
