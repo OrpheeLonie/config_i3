@@ -21,3 +21,6 @@ tmp*
 
 # maven
 META-INF/
+
+# nix
+shell.nix
