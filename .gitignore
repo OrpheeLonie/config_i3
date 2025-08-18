@@ -10,12 +10,7 @@
 .config/*
 !.config/i3/
 
-!.config/rofi/
-.config/rofi/*
-!.config/rofi/launchers/
-.config/rofi/launchers/*
-!.config/rofi/launchers/colorful/
-.config/rofi/launchers/colorful/colors.rasi
+!.config/setup_script/
 
 !.config/nvim/
 lazy-lock.json
