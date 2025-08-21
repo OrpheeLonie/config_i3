@@ -8,7 +8,8 @@ apt install bat \
     gcc \
     keepassxc \
     ripgrep \
-    tmux
+    tmux \
+    tree
 
 snap install discord
 snap install nvim --classic
