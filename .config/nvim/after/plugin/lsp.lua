@@ -1,4 +1,4 @@
-vim.o.completeopt="menuone,noselect,popup"
+-- vim.o.completeopt="menuone,noselect,popup"
 vim.api.nvim_create_autocmd('LspAttach', {
     group = vim.api.nvim_create_augroup('my.lsp', {}),
     callback = function(args)
@@ -8,7 +8,7 @@ vim.api.nvim_create_autocmd('LspAttach', {
             -- Optional: trigger autocompletion on EVERY keypress. May be slow!
             -- local chars = {}; for i = 32, 126 do table.insert(chars, string.char(i)) end
             -- client.server_capabilities.completionProvider.triggerCharacters = chars
-            vim.lsp.completion.enable(true, client.id, args.buf, {autotrigger = true})
+            vim.lsp.completion.enable(true, client.id, args.buf, {autotrigger = false})
         end
 
         local opts = {buffer = args.buf, remap = false}
@@ -20,7 +20,7 @@ vim.api.nvim_create_autocmd('LspAttach', {
 
         vim.keymap.set('n', 'gD', vim.lsp.buf.declaration, opts)
         vim.keymap.set('n', 'gd', vim.lsp.buf.definition, opts)
-        vim.keymap.set('n', 'K', vim.lsp.buf.hover, opts)
+        -- vim.keymap.set('n', 'K', vim.lsp.buf.hover, opts) -- already default
         vim.keymap.set('n', 'gi', vim.lsp.buf.implementation, opts) -- default: gri
         vim.keymap.set('n', '<C-k>', vim.lsp.buf.signature_help, opts) -- default: i_C-s
         vim.keymap.set('n', '<space>wa', vim.lsp.buf.add_workspace_folder, opts)
