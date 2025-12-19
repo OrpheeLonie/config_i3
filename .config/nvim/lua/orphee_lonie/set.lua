@@ -25,3 +25,7 @@ vim.o.smartcase=true
 
 vim.g.netrw_banner=0
 vim.g.netrw_liststyle=3
+
+vim.g.markdown_folding = 1
+
+vim.cmd("command! MakeTags !ctags -R .")
