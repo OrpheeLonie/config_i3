@@ -10,7 +10,7 @@
 # Please see https://i3wm.org/docs/userguide.html for a complete reference!
 
 # Set mod key (Mod1=<Alt>, Mod4=<Super>)
-set $mod Mod1
+set $mod Mod4
 
 # set default desktop layout (default is tiling)
 # workspace_layout tabbed <stacking|tabbed>
@@ -463,11 +463,14 @@ mode "$mode_gaps_outer" {
         bindsym Escape mode "default"
 }
 
+# move workspace to right screen
 bindsym $mod+p move workspace to output right
 
 set $i3lockwall sh $HOME/.config/i3/script/i3lockWithRandomWallpaper.sh
 bindsym $mod+Shift+d exec $i3lockwall
 
 exec --no-startup-id feh --randomize --bg-fill $HOME/Pictures/Wallpaper/*
-# setxkbmap -layout gb,fr
-# setxkbmap -option 'grp:alt_space_toggle'
+#exec setxkbmap -layout gb,fr
+#exec setxkbmap -option 'grp:alt_space_toggle'
+bindsym $mod+i exec setxkbmap gb
+bindsym $mod+o exec setxkbmap fr
