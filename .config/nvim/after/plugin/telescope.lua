@@ -1,6 +1,6 @@
 local builtin = require('telescope.builtin')
 vim.keymap.set('n', '<leader>ff', function()
-    builtin.find_files { path_display = {"truncate"} }
+    builtin.find_files { hidden=false, path_display = {"truncate"} }
 end, {})
 vim.keymap.set('n', '<leader>fd', function()
     builtin.find_files {no_ignore=true, no_ignore_parent=true, hidden=true}
