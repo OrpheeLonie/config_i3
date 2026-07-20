@@ -12,11 +12,10 @@
 	excludesfile = ~/.gitignore_global
 [difftool]
 	prompt = false
+	trustExitCode = true
 [diff]
 	tool = nvimdiff
 [merge]
 	tool = nvimdiff
-[difftool "nvimdiff"]
-	cmd = "nvim -d \"$LOCAL\" \"$REMOTE\""
 [push]
 	autoSetupRemote = true
