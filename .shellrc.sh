@@ -14,3 +14,6 @@ alias keyboardFR='setxkbmap -layout fr'
 
 alias egrep='egrep --color=auto --exclude-dir={.bzr,CVS,.git,.hg,.svn,.idea,.tox,venv}'
 alias vim=nvim
+alias emacs='emacs -nw'
+
+shopt -s autocd
