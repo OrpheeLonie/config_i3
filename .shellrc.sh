@@ -16,4 +16,11 @@ alias egrep='egrep --color=auto --exclude-dir={.bzr,CVS,.git,.hg,.svn,.idea,.tox
 alias vim=nvim
 alias emacs='emacs -nw'
 
+alias start_ibus='ibus start'
+alias disable_ipv6='echo sysctl -w net.ipv6.conf.all.disable_ipv6=1'
+alias enable_ipv6='echo sysctl -w net.ipv6.conf.all.disable_ipv6=0'
+alias resync_clock='echo timedatectl set-ntp 1'
+
 shopt -s autocd
+
+bind 'set completion-ignore-case On'
